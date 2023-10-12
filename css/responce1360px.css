@@ -1,0 +1,23 @@
+@media(max-width: 1360px){
+    .header,
+    .main,
+    .card,
+    .stats,
+    .support,
+    .price,
+    .questions,
+    .footer{
+        padding: 0 50px;
+        margin: auto;
+    }
+    .header{
+        top: 50px;
+    }
+    .main{
+        padding:  150px 50px;
+    }
+    .footer{
+        padding: 90px 50px 90px 50px;
+        height: auto;
+    }
+}
