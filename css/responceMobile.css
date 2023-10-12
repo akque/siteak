@@ -1,0 +1,42 @@
+@media(max-width : 550px){
+    div{
+        width: 100%;
+    }
+    .header_nav{
+        display: none;
+    }
+    .support, .card, .stats, .blocks{
+        flex-direction: column;
+        width: 95%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .main_container{
+        overflow: hidden;
+        padding: 20px 15px;
+    }
+    .main_container_left{
+        width: 100%;
+        height: 630px;
+    }
+    .plan_subtitle{
+        margin: auto;
+    }
+    .priceblock_2, .priceblock_1{
+        width: 100%;
+    }
+    .footer_copyright {
+        font-size: 10px;
+        width: auto;
+    }
+    .footer_link{
+        font-size: 15px;
+    }
+    .footer{
+        padding: 20px 15px;
+        gap: 10px;
+    }
+    .footer_iconContent{
+        width: 40%;
+    }
+}

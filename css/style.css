@@ -515,7 +515,8 @@ body {
 .blocks {
     display: flex;
     gap: 60px;
-    padding: 0 247px;
+    width: 100%;
+    margin: auto;
     justify-content: center;
 }
 .price {

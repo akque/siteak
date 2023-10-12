@@ -7,17 +7,68 @@
     .price,
     .questions,
     .footer{
-        padding: 0 50px;
-        margin: auto;
+        padding: 0;
+        margin: 100px auto;
     }
     .header{
-        top: 50px;
+        top: 20px;
+        margin: auto;
+    }
+    .nav_text{
+        width: auto;
     }
     .main{
-        padding:  150px 50px;
+        /* padding:  0 50px; */
+        margin: auto;
+    }
+    .main_container {
+        height: auto;
+        justify-content: start;
+        padding-left: 80px;
+        width: auto;
+        background-size: 1300px;
+    }
+    .main_container_left{
+        padding-top: 100px;
+        width: 600px;
+        height: 600px;
+    }
+    .support{
+        padding: 0 50px;
+        gap: 0;
+    
+    }
+    .main_img{
+        display: none;
+    }
+
+    .support, .card, .stats, .blocks{
+        flex-direction: column;
+        width: 425px;
+    }
+    .blocks{
+        width: 430px;
+    }
+    .quest_subtitle{
+        width: 100%;
+    }
+    .profile_title{
+        width: 100%;
+    }
+    .profile1_title{
+        width: 100%;
+    }
+    .quest_btn{
+        width: 100%;
+        background-position-x: 95%;
     }
     .footer{
         padding: 90px 50px 90px 50px;
         height: auto;
+        margin: auto;
+    }
+    .footer_links{
+        gap: 0;
+        justify-content: space-between;
     }
 }
