@@ -1,4 +1,4 @@
-@media(max-width : 550px){
+@media(max-width : 600px){
     div{
         width: 100%;
     }
@@ -17,26 +17,162 @@
     }
     .main_container_left{
         width: 100%;
-        height: 630px;
+        height: 400px;
+    }
+    .main {
+        height: auto;
     }
     .plan_subtitle{
         margin: auto;
     }
-    .priceblock_2, .priceblock_1{
+    .priceblock_2{
+        width: 100%;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .questions{
+        box-sizing: border-box;
+    }
+    .card_img{
+        width: 100%;
+        background-size: cover;
+        height: calc(100vw / 1.6);
+    }
+    .price{
+        box-sizing: border-box;
+    }
+    .inline_cards{
+        flex-direction: column;
+        width: 100%;
+    }
+    .statistics{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .debit_card{
+        display: none;
+    }
+    .plan_subtitle{
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .support_subtitle{
+        width: 100%;
+        font-size: 18px;
+    }
+    .stats_card{
         width: 100%;
     }
     .footer_copyright {
         font-size: 10px;
         width: auto;
     }
+    .footer_links{
+        flex-direction: column;
+        gap: 25px;
+    }
     .footer_link{
-        font-size: 15px;
+        font-size: 12px;
     }
     .footer{
         padding: 20px 15px;
-        gap: 10px;
+        justify-content: space-between;
     }
     .footer_iconContent{
         width: 40%;
+    }
+    .links1 {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .statsr_title,
+    .statsr_subtitle,
+    .card_title,
+    .card_subtitle,
+    .support_title{
+        width: 100%;
+    }
+    .quest_btn{
+        padding-right: 50px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .btn_last {
+        margin-bottom: 0;
+    }
+    .quest_subtitle {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .quest_title {
+        font-size: 36px;
+    }
+    .blocks {
+        padding: 0;
+    }
+    .price_subtitle {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .price_title {
+        font-size: 36px;
+    }
+    .profile_title, .profile1_title {
+        padding: 25px;
+    }
+    .support_profiles {
+        width: 70%;
+        margin-bottom: 15px;
+    }
+    .support_title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .main_title, .card_title, .statsr_title {
+        font-size: 36px;
+    }
+    .main_subtitle,
+    .card_subtitle,
+    .stats_subtitle,
+    .statsr_subtitle {
+        font-size: 18px;
+    }
+    .footer_logo{
+        width: 50px;
+        height: 53px;
+    }
+    .stats_title {
+        font-size: 30px;
+    }
+    .stats_card {
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .statistics {
+        display: none;
+    }
+    .stats {
+        margin-bottom: 0;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .card{
+        gap: 30px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .support {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .price {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .questions {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }

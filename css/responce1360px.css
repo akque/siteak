@@ -30,8 +30,9 @@
     }
     .main_container_left{
         padding-top: 100px;
-        width: 600px;
+        width: calc(100% - 80px);
         height: 600px;
+        margin-top: 0;
     }
     .support{
         padding: 0 50px;
@@ -41,13 +42,18 @@
     .main_img{
         display: none;
     }
-
+    .price{
+        padding: 0 20px;
+    }
     .support, .card, .stats, .blocks{
         flex-direction: column;
         width: 425px;
     }
     .blocks{
         width: 430px;
+    }
+    .questions{
+        padding: 0 20px;
     }
     .quest_subtitle{
         width: 100%;
@@ -63,12 +69,13 @@
         background-position-x: 95%;
     }
     .footer{
-        padding: 90px 50px 90px 50px;
+        padding: 90px 20px 90px 20px;
         height: auto;
         margin: auto;
+        gap: 20px;
     }
     .footer_links{
-        gap: 0;
+        gap: 50px;
         justify-content: space-between;
     }
 }
