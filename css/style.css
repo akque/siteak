@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    /* width: 100%; */
     height: auto;
     position: relative;
     margin: auto;
@@ -11,8 +10,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 1920px; */
-    /* margin: auto; */
     padding: 0 247px;
     box-sizing: border-box;
     position: absolute;
@@ -302,8 +299,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
-.msg_profile2 {
 }
 .profile_title {
     color: #6A6D9E;
