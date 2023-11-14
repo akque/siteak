@@ -1,0 +1,15 @@
+@media(min-width: 2300px) {
+    .card_title {
+        color: white;
+    }
+    .card_subtitle {
+        color: #FFF;
+    }
+    .main_container{
+        max-width: 2800px;
+        margin: auto;
+        background-size: 130%;
+        height: 100vw;
+
+    }
+}

@@ -1,4 +1,4 @@
-@media(max-width: 1360px){
+@media(max-width: 1300px){
     .header,
     .main,
     .card,
@@ -26,10 +26,11 @@
         justify-content: start;
         padding-left: 80px;
         width: auto;
-        background-size: 1300px;
+        background-size: 1260px;
+        box-sizing: border-box;
     }
     .main_container_left{
-        padding-top: 100px;
+        padding-top: 80px;
         width: calc(100% - 80px);
         height: 600px;
         margin-top: 0;
